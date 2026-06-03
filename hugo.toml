@@ -2,7 +2,8 @@ baseURL = "https://homiliae.org/"
 languageCode = "en-us"
 title = "Homiliae"
 theme = "PaperMod"
-paginate = 20
+[pagination]
+  pagerSize = 5
 
 [params]
   description = "An open-access archive of Catholic homilies and sermons, with original language texts and English translations."
